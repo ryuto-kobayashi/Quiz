@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../img/coffee.png">
+            <img src="../img/coffee.png">
+            <img src="../img/coffee.png">
+        </div>
+    </header>
+    <main>
+        <div id="frame">
+            <div id="frame_rs">
+                <p id="finish">You made it!!</p>
+                <p id="result">
+                    <script>
+                        document.getElementById("result").textContent = "終了！あなたの正解数は" + score + "/" + quizLength + "です！";
+                    </script>
+                </p>
+            </div>
+            <button id="btn_top" type="button">TOPへ戻る</button>
+            <button id="btn_again" type="button">もう一度挑戦</button>
+        </div>        
+    </main>
+    <footer>
+        <div id="copyright">
+            <p>©2020/Ryuto Kobayashi/All Right Reserved</p>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+    
+</html>

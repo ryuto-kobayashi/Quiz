@@ -1,0 +1,1 @@
+document.getElementById("result").textContent = ("終了！あなたの正解数は" + score + "/" + quizLength + "です！");

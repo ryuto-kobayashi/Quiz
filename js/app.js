@@ -67,6 +67,9 @@ const clickHandler = (e) => {
 };
 
 
+
+
+
 //ボタンをクリックしたら正誤判定
 let handlerIndex = 0;
 
